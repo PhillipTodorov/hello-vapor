@@ -1,0 +1,34 @@
+.paragraph{
+
+	display: grid;
+	vertical-align: middle;
+	grid-template-columns: 25% 50% 25%
+
+}
+
+.paragraph > div{
+
+	background: rgb(225, 225, 234);
+	padding: 1em;
+	grid-gap: 1em;
+
+}
+
+
+.paragraph > div:nth-child(odd){
+
+	background: rgb(179, 179, 204);
+	padding: 1em;
+	grid-gap: 1em;
+
+}
+
+.paragraph > div > img{
+
+	grid-area: photo;
+	object-fit: cover;
+  	height: 50%;
+  	width: auto;
+  	overflow: hidden;
+
+}
